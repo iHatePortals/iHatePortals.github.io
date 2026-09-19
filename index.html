@@ -1,30 +1,167 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>iHatePortals</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taha Alkan</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <div class="container">
-    <img src="images/spotify.jpg" alt="Profil" class="profile-pic">
-    <h1>iHatePortals</h1>
-    <p class="bio">Benim kişisel hesaplarım.</p>
 
-    <div class="links">
-      <a id="colorPicker">🎨 Random Color</a>
-      <a href="https://www.instagram.com/t4hagrt/">🅾 Instagram</a>
-      <a href="https://open.spotify.com/user/31uiuorvu6lqal7ttazjuqlc53ni?si=941bafb36f8f42ff">🎵 Spotify</a>
-      <a href="https://myanimelist.net/profile/iHateportals">📺 MyAnimeList</a>
-      <a href="https://steamcommunity.com/id/comeonroachhh/">🎮 Steam</a>
-      <a href="https://github.com/iHatePortals"> Github</a>
-    </div>
+    <div class="background"></div>
 
-    <p class="footer">Made in by iHatePortals</p>
-  </div>
+    <main class="layout">
 
-  <script src="script.js"></script>
+        <!-- Sol Kolon: Profil ve Hesaplar -->
+        <section class="column">
+
+            <div class="panel profile">
+                <img src="profile.jpg" alt="Taha Alkan" class="profile-image">
+
+                <div class="profile-content">
+                    <h1>Plotka</h1>
+                    <p>
+                        Tomorrow will be a great day.
+                    </p>
+                </div>
+            </div>
+
+            <div class="panel contact">
+                <h2>Hesaplar</h2>
+
+                <a href="#" class="contact-link">
+                    <img src="icons/discord.svg" alt="">
+                    <span>Discord</span>
+                </a>
+
+                <a href="https://github.com/iHatePortals" class="contact-link">
+                    <img src="icons/github.svg" alt="">
+                    <span>GitHub</span>
+                </a>
+
+                <a href="https://www.instagram.com/t4hagrt/" class="contact-link">
+                    <img src="icons/instagram.svg" alt="">
+                    <span>Instagram</span>
+                </a>
+
+                <a href="https://open.spotify.com/user/31uiuorvu6lqal7ttazjuqlc53ni" class="contact-link">
+                    <img src="icons/spotify.svg" alt="">
+                    <span>Spotify</span>
+                </a>
+
+                <a href="https://steamcommunity.com/id/comeonroachhh/" class="contact-link">
+                    <img src="icons/steam.svg" alt="">
+                    <span>Steam</span>
+                </a>
+
+                <a href="https://myanimelist.net/profile/iHateportals" class="contact-link">
+                    <img src="icons/myanimelist.svg" alt="">
+                    <span>MyAnimeList</span>
+                </a>
+            </div>
+
+        </section>
+
+
+        <!-- Orta Kolon: Saat, Yetenekler ve Projeler -->
+        <section class="column">
+
+            <div class="panel clock">
+                <div id="live-clock">00:00:00</div>
+
+                <div class="location">
+                    <span class="status-dot"></span>
+                    <span>İstanbul</span>
+                </div>
+            </div>
+
+            <div class="panel skills">
+                <h2>Yetenekler</h2>
+
+                <div class="skills-list">
+                    <div class="skill">
+                        <img src="icons/html.png" alt="HTML">
+                    </div>
+
+                    <div class="skill">
+                        <img src="icons/css.png" alt="CSS">
+                    </div>
+
+                    <div class="skill">
+                        <img src="icons/javascript.png" alt="JavaScript">
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel projects">
+                <h2>Projeler</h2>
+
+                <a href="https://ihateportals.github.io/Plotka-Novel/" class="project">
+                    <div class="project-icon">PN</div>
+
+                    <div>
+                        <strong>Plotka Novel</strong>
+                        <span>Light Novel okumak için yaptığım site</span>
+                    </div>
+
+                    <span class="project-arrow">↗</span>
+                </a>
+            </div>
+
+        </section>
+
+
+        <!-- Sağ Kolon: Favori Animeler ve Oyunlar -->
+        <section class="column">
+
+            <div class="panel favorites">
+                <h2>Favori Animeler</h2>
+
+                <div class="favorite-list">
+                    <div class="favorite-card">
+                        <img src="icons/kon.jpg" alt=" K-On!">
+                        <span>K-On!</span>
+                    </div>
+
+                    <div class="favorite-card">
+                        <img src="icons/monogatari.jpg" alt="Monogatari">
+                        <span>Monogatari</span>
+                    </div>
+
+                    <div class="favorite-card">
+                        <img src="icons/clannad.jpg" alt="Clannad">
+                        <span>Clannad</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel favorites">
+                <h2>Favori Oyunlar</h2>
+
+                <div class="favorite-list">
+                    <div class="favorite-card">
+                        <img src="icons/bg3.jpg" alt="Baldurs Gate 3">
+                        <span>Baldurs Gate 3</span>
+                    </div>
+
+                    <div class="favorite-card">
+                        <img src="icons/witcher3.jpg" alt="Witcher 3">
+                        <span>Witcher 3</span>
+                    </div>
+
+                    <div class="favorite-card">
+                        <img src="icons/Divinity2.jpg" alt="Divinity 2">
+                        <span>Divinity 2</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
-
