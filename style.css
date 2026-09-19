@@ -19,6 +19,7 @@ body {
 }
 
 
+/* Arka plan */
 
 .background {
     position: fixed;
@@ -60,6 +61,7 @@ body {
 }
 
 
+/* Ortak cam panel */
 
 .panel,
 .info-card {
@@ -150,6 +152,7 @@ body {
 }
 
 
+/* Küçük bilgi kartları */
 
 .info-card {
     position: relative;
@@ -210,6 +213,7 @@ body {
 }
 
 
+/* Saat */
 
 .clock {
     padding: 24px 20px;
@@ -249,6 +253,7 @@ body {
 }
 
 
+/* Başlıklar */
 
 .panel h2 {
     margin: 0 0 14px;
@@ -257,6 +262,7 @@ body {
 }
 
 
+/* Yetenekler */
 
 .skills {
     padding: 20px;
@@ -294,6 +300,7 @@ body {
 }
 
 
+/* Hesaplar */
 
 .contact {
     padding: 20px;
@@ -330,6 +337,7 @@ body {
 }
 
 
+/* Projeler */
 
 .projects {
     padding: 20px;
@@ -396,6 +404,7 @@ body {
 }
 
 
+/* Favoriler */
 
 .favorites {
     padding: 20px;
@@ -426,8 +435,10 @@ body {
 
     display: block;
 
+    /* Görselin orantıyı bozmadan kutuyu tamamen doldurmasını sağlar */
     object-fit: cover; 
     
+    /* Görselin hangi bölgesinden kırpılacağını belirler (merkez odaklı) */
     object-position: center; 
 
     transition: transform 0.3s;
@@ -454,6 +465,7 @@ body {
 }
 
 
+/* Mobil */
 
 @media (max-width: 850px) {
 
